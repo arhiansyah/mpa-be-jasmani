@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap);
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.text-dark-red {
+  color: #8d191c;
+}
+
+#main {
+  padding: 1rem 2rem;
+}
+
+body {
+  font-size: 16px;
+  background-color: #f4f4f4;
+}
+
+.btn-gan {
+  background-color: #8d191c;
+}
+.btn-gan:cover {
+  background-color: #711416 !important;
+}
+
+.sidebar-wrapper .menu .sidebar-item.active > .sidebar-link {
+  background-color: #8d191c;
+}
+
+.card-title {
+  color: #8d191c;
+}

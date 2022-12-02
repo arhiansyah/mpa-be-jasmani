@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@import 'variables';
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.text-dark-red {
+    color: $dark-red;
+}
+
+#main {
+    padding: 1rem 2rem;
+}
+
+body {
+    font-size: 16px;
+    background-color: $bg-color;
+}
+
+.btn-gan {
+    background-color: $dark-red;
+
+    &:cover {
+        background-color: $dark-red-hover !important;
+    }
+}
+
+.sidebar-wrapper .menu .sidebar-item.active>.sidebar-link {
+    background-color: $dark-red;
+}
+
+.card-title {
+    color: $dark-red;
+}
